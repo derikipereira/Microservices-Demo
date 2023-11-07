@@ -19,8 +19,6 @@ Uma arquitetura de microservices baseada em Spring Boot, MySQL e várias tecnolo
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 - [Autores](#autores)
-- [Agradecimentos](#agradecimentos)
-- [Contato](#contato)
 
 ## Visão Geral do Projeto
 

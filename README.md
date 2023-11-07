@@ -1,6 +1,5 @@
 # Microservices Demo
 
-![Microservices](link_para_uma_imagem_relacionada_ao_seu_projeto.png)
 
 Uma arquitetura de microservices baseada em Spring Boot, MySQL e várias tecnologias de nuvem.
 

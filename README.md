@@ -16,7 +16,6 @@ Uma arquitetura de microservices baseada em Spring Boot, MySQL e várias tecnolo
 - [Resiliência e Monitoramento](#resiliência-e-monitoramento)
 - [Documentação da API](#documentação-da-api)
 - [Dockerização](#dockerização)
-- [Contribuição](#contribuição)
 - [Licença](#licença)
 - [Autores](#autores)
 

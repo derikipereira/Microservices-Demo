@@ -3,6 +3,8 @@ package dev.drk.controller;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +19,8 @@ import dev.drk.repository.CambioRepository;
 @RequestMapping("cambio-service")
 public class CambioController {
 	
+	private Logger logger = LoggerFactory.getLogger(CambioController.class);
+	
 	@Autowired
 	private Environment environment;
 	
@@ -30,6 +34,7 @@ public class CambioController {
 			@PathVariable("to") String to
 			){
 		
+		logger.info("getCambio is colled with -> {}, {} and {}", amount,from, to);
 		var cambio = repository.findByFromAndTo(from, to);
 		if(cambio == null) throw new RuntimeException("Currency Unsupported");
 		

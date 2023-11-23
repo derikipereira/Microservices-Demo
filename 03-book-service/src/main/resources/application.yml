@@ -44,3 +44,8 @@ spring:
     schemas: book_service
     user: root
     password: admin123
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+ 

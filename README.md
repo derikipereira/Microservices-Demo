@@ -1,4 +1,4 @@
-# Microservices Demo (TO DO)
+# Microservices Demo
 
 
 Uma arquitetura de microservices baseada em Spring Boot, MySQL e várias tecnologias de nuvem.
@@ -83,8 +83,6 @@ Utilizamos o Resilience4j (Hystrix) para tolerância a falhas e o Spring Boot Ac
 
 Acesse a documentação da API gerada automaticamente usando o Swagger OpenAPI em [link_para_documentação](link_para_documentação).
 
-## Dockerização
-TO DO
 
 ## Licença
 
